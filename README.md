@@ -1,4 +1,4 @@
-## React Component Boilerplate [![Dependency Status](https://david-dm.org/yahoo/flux-examples.svg)](https://david-dm.org/TYRONEMICHAEL/react-component-boilerplate)
+## React Browserify Boilerplate [![Dependency Status](https://david-dm.org/yahoo/flux-examples.svg)](https://david-dm.org/TYRONEMICHAEL/react-component-boilerplate)
 
 I modified the following [repo](https://github.com/TYRONEMICHAEL/react-component-boilerplate) to use Browserify instead. I prefer writing my moduleds `Node Style` and having Browserfiy compile and bundle my app.
 
