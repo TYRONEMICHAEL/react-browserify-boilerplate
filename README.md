@@ -19,7 +19,7 @@ I tried to keep this as unopinionated as possible.
 ### Testing Your Component
 
 * Run `npm test`
-* To have your  tests run continuously, just run `./node_modules/karma/bin/karma start karma.conf.js --no-single-run` or you can always change the Karma configuration file
+* To have your  tests run continuously, just run `npm run test:watch` or you can always change the Karma configuration file
 
 ### Contribution
 
