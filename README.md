@@ -4,7 +4,7 @@ I modified the following [repo](https://github.com/TYRONEMICHAEL/react-component
 
 React-Browserify-Boilerplate lets you create a React component quickly and test quickly as well as thoroughly using Karma. Have your tests run continuously with the added benefit of testing in your favorite and least favorite browsers while also having access to developer tools. Win Win. This was born out of the following [thread](https://github.com/facebook/jest/issues/116).
 
-I tried to keep this as unopinionated as possible.
+I tried to keep this as unopinionated as possible. No gulp. No grunt. Strictly npm for tasks. I don't feel the need for Livereload, when you a have test suite that lets you run continious tests. Keeping it simple so you can fork and add as you wish.
 
 ### Setup
 
@@ -19,7 +19,7 @@ I tried to keep this as unopinionated as possible.
 ### Testing Your Component
 
 * Run `npm test`
-* To have your  tests run continuously, just run `npm run test:watch` or you can always change the Karma configuration file
+* To have your  tests run continuously, just run `npm run test:watch`
 
 ### Contribution
 
