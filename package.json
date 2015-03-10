@@ -1,0 +1,43 @@
+{
+  "name": "react-browserify-boilerplate",
+  "version": "0.2.2",
+  "description": "A React browserify boilerplate. Test your component quickly and continuously with Karma.",
+  "scripts": {
+    "start": "./node_modules/browserify/bin/cmd.js ./assets/client.js -t reactify -o ./public/client.js",
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "keywords": [
+    "facebook",
+    "react",
+    "react-component",
+    "boilerplate",
+    "karma",
+    "mocha"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TYRONEMICHAEL/react-browserify-boilerplate.git"
+  },
+  "author": "Tyrone Michael Avnit <tyronemichael@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TYRONEMICHAEL/react-browserify-boilerplate/issues"
+  },
+  "homepage": "https://github.com/TYRONEMICHAEL/react-browserify-boilerplate",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "chai": "^1.9.1",
+    "karma": "^0.12.21",
+    "karma-bro": "^0.6.2",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-mocha": "^0.1.7",
+    "mocha": "^1.21.4",
+    "react-tools": "^0.11.1",
+    "reactify": "^0.14.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.1",
+    "react": "^0.11.1"
+  }
+}
